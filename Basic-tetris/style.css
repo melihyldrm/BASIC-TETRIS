@@ -1,0 +1,65 @@
+#start-button{
+  margin-left: 710px;
+}
+
+
+
+h3{
+  text-align:center;
+}
+
+.container{
+    display: flex;
+   
+}
+
+
+.grid {
+  width: 200px;
+  height: 400px;
+  background-color: purple;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 10%;
+  margin-left:  450px;
+
+}
+
+.grid div{
+  height: 20px;
+  width: 20px;
+ 
+  
+}
+
+.tetromino{
+    background-color: #fff;
+}
+
+.mini-grid{
+    margin-left: 250px;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: yellow;
+}
+
+.mini-grid div{
+    height: 20px;
+    width: 20px;
+}
+
+body{
+  background-color:lightblue;
+}
+
+@media only screen and (device-width: 1280px),
+only screen and (max-width:1280px) {
+  .container{
+    display: block;
+    width: 100%;
+  }
+  
+  
+}
